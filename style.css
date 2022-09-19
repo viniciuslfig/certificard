@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #cfb53b 24.26%, #4629b5 06.03%);
+  font-family: 'Roboto Slab', serif;
+}
+
+.container {
+  background: #6f6776;
+  color: #1c1c1c
+  margin: 16px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 16px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left:16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  fonte-size: 12px;
+  padding: 8px 16px;
+  background: #4629b5;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: #cfb53b;
+  border-radius: 20px; 
+  padding: 12px;
+}
+
+.projetos-titulo {
+  list-style:none;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.projetos-item a {
+  color: #1c1c1c ;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 2726%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  color: #ffffff;
+  background: #1c1c1c;
+  border: 2px solid #f7f7f7;
+}
